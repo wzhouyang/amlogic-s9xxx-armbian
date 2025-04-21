@@ -69,7 +69,7 @@ build_kernel=("6.1.y" "6.12.y")
 # Set whether to use the latest kernel, options: [ true / false ]
 auto_kernel="true"
 # Set whether to apply custom kernel patches, options: [ true / false ]
-auto_patch="false"
+auto_patch="true"
 # Set custom signature for the kernel
 custom_name="-ophub"
 # Set the kernel compile object, options: [ dtbs / all ]
