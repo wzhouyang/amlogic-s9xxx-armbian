@@ -154,6 +154,7 @@ jobs:
           kernel_toolchain: ${{ inputs.kernel_toolchain }}
           compress_format: ${{ inputs.compress_format }}
           auto_patch: true
+          kernel_patch: compile-kernel/tools/patch
 
       - name: Upload Kernel to Release
         uses: ncipollo/release-action@main
